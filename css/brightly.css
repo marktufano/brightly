@@ -1,0 +1,98 @@
+html {
+}
+
+/* Body resets */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (min-width: 38rem) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Body */
+
+body {
+  padding: 6rem 1rem;
+  color: #000;
+  text-align: center;
+  background-color: #da251c;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 3.5rem;
+}
+
+p:before {
+  content: '';
+  display: block;
+  margin: 1rem auto .75rem auto; 
+  width: 9rem;
+  border-top: 2px solid #fff;
+}
+
+p:after{
+  content: '';
+  display: block;
+  margin: .75rem auto 0 auto; 
+  width: 9rem;
+  border-top: 2px solid #fff;
+}
+
+/* Body text */
+p {
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*Container*/
+
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+/*Content*/
+
+.masthead-title{
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+
+}
+
+p
+{
+  color: #fff;
+  font-size: 1.25rem;
+}
